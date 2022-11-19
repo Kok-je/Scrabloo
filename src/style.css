@@ -6,9 +6,26 @@ body {
 
 .news-card {
   border-style: solid;
-  border-color: #0a9e01;
   border-radius: 50px;
   padding: 20px 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#techcrunch {
+  border-color: #0a9e01;
+}
+
+#venturebeat {
+  border-color: #f01014;
+}
+
+#digitaltrends {
+  border-color: #00a4fe;
+}
+
+#hackernews {
+  border-color: #f36424;
 }
 
 h3 {
@@ -26,6 +43,8 @@ h3 {
   font-size: 15px;
   font-weight: lighter;
   padding: 0px 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 p {
@@ -39,32 +58,37 @@ p {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 30px 20px;
-  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header p {
-  float: left;
   color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25px;
   border-radius: 4px;
 }
 
-.header p.logo {
-    color: #544365;
-    font-weight: bold;
+.header p.logo-app {
+    color: #370062;
+    font-weight: bolder;
     font-size: 40px;
+    float: left;
+    margin-left: 50px;
 }
 
 .header-right {
-    float: left;
+    float: right;
 }
 
 .header p.subtitle {
     color: #808080;
+    margin-right: 100px;
+    font-style: italic;
 }
 
 .container {
@@ -88,12 +112,29 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #9d59ee;
+  color: #22004b;
   background-color: transparent;
   text-decoration: none;
+  font-weight: bold;
+  overflow: visible;
 }
 a:active {
   color: #32DBBE;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.logo{
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
 }
