@@ -83,7 +83,7 @@ app.get('/results3', (req, res) => {
                 })
             })
 
-            $('.b-river-post__content', html).each(function () { //<-- cannot be a function expression
+            $('.b-river-post__title', html).each(function () { //<-- cannot be a function expression
                 const title = $(this).text()
                 const url = $(this).find('a').attr('href')
                 articles.push({
