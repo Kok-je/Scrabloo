@@ -8,8 +8,8 @@ body {
   border-style: solid;
   border-radius: 50px;
   padding: 20px 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #techcrunch {
@@ -63,22 +63,18 @@ p {
   justify-content: space-between;
 }
 
-.header p {
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 25px;
-  border-radius: 4px;
-}
 
 .header p.logo-app {
     color: #370062;
     font-weight: bolder;
     font-size: 45px;
-    float: left;
-    margin-left: 50px;
+    margin-left: 10px;
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .header-right {
@@ -87,7 +83,8 @@ p {
 
 .header p.subtitle {
     color: #808080;
-    margin-right: 100px;
+    margin-right: 80px;
+    font-size: 17px;
     font-style: italic;
 }
 
@@ -129,6 +126,11 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#logo-main {
+  width: 10%;
+  float: left;
 }
 
 #logo-small {
