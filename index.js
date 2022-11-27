@@ -74,7 +74,7 @@ app.get('/results3', (req, res) => {
             const $ = cheerio.load(html)
             const articles = []
 
-            $('.b-mem-post__content', html).each(function () { //<-- cannot be a function expression
+            $('.b-mem-post__title', html).each(function () { //<-- cannot be a function expression
                 const title = $(this).text()
                 const url = $(this).find('a').attr('href')
                 articles.push({
