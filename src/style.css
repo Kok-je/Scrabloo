@@ -54,6 +54,17 @@ p {
   color: black;
 }
 
+.scroll-down {
+  background-color: #ffffff;
+  border-radius: 30px;
+  border-style: solid;
+  margin-left: 0px;
+  font-size: 20px;
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -86,6 +97,18 @@ p {
     margin-right: 80px;
     font-size: 17px;
     font-style: italic;
+}
+
+.banner {
+  padding: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.hero-banner {
+  width: 600px;
 }
 
 .container {
@@ -133,10 +156,20 @@ a:active {
   float: left;
 }
 
+#logo-hero {
+  width: 400px;
+  float: left;
+  margin-right: 9rem;
+}
+
 #logo-small {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
