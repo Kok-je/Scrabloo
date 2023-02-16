@@ -1,4 +1,4 @@
-# Scrabloo ![icon](src\assets\TechCrunch_logo.png)
+# <img src="src\assets\Scrappy_Logo.png" alt = "icon" width = "7%" height = "7%" title="icon"> Scrabloo  
 
 ## The hottest tech news for busy techies all in one place.
 
