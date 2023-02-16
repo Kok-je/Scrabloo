@@ -1,4 +1,4 @@
-# Scrabloo
+# Scrabloo ![icon](src\assets\TechCrunch_logo.png)
 
 ## The hottest tech news for busy techies all in one place.
 
