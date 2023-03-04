@@ -3,10 +3,8 @@ import {
   FaBars,
   FaTimes,
   FaGithub,
-  FaLinkedin,
   FaInstagram,
   FaMediumM,
-  FaFacebook,
   FaLinkedinIn,
 } from 'react-icons/fa';
 import { 
@@ -19,8 +17,6 @@ import {
     RiLayoutRowLine,
     RiDatabase2Line
 } from "react-icons/ri";
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
