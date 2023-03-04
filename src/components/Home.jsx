@@ -6,13 +6,13 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name='home' className="w-full h-screen bg-[url('./assets/background1.png')]" >
+    <div name='home' className="w-full h-screen bg-[url('./assets/background1.png')] bg-cover bg-left" style={{backgroundSize: '125%'}} >
       {/* Container */}
       <div className='max-w-[1500px] mx-auto px-8 flex flex-col md:flex-row  h-full '>
         <div class="w-40 h-8"></div>
-            <div className="div flex flex-col order-2 md:order-1 justify-center md:pl-28 ">
+            <div className="div flex flex-col order-2 md:order-1 justify-center md:pl-36 ">
                 <p className='text-pink-600'>Hi, my name is</p>
-                <h1 className='text-4xl md:text-7xl sm:text-5xl font-bold flex items-center '>
+                <h1 className='text-3xl md:text-6xl sm:text-5xl font-bold flex items-center '>
                     Shawn Kok.
                     <div className="div pl-4">
                         <svg
@@ -66,11 +66,11 @@ const Home = () => {
                         </svg>  
                     </div>
                 </h1>
-                <h2 className='text-2xl sm:text-3xl font-bold text-[#8892b0] py-4'>
+                <h2 className='text-1xl sm:text-2xl font-bold text-[#8892b0] py-4'>
                     ― Aspiring Software Developer.
                 </h2>
             
-                <p className='text-primary py-4 max-w-[700px] leading-8'>
+                <p className='text-primary text-xs py-4 pr-8 max-w-[700px] leading-7'>
                 I love everything tech and design! I aim to depvelop impactful software that make a difference! 
                 Currently, I’m focused on
                 building responsive full-stack web applications.
@@ -78,22 +78,22 @@ const Home = () => {
                 </p>
                 <div>
                     <Link to='about' smooth={true} duration={500}>
-                        <button className='text-lg group rounded-full border-2 px-8 py-6 my-3 flex items-center bg-[#ffffff]'>
+                        <button className='text-base group rounded-full border-2 px-7 py-5 my-3 flex items-center bg-[#ffffff]'>
                             <span className='flex flex-col md:animate-bounce'>
-                                <BsMouse className='mr-3' size={30} />
+                                <BsMouse className='mr-3' size={25} />
                             </span>
                             Learn More!
                             {/* <span className='group-hover:rotate-90 duration-300'>
                                 <HiArrowNarrowRight className='ml-3 ' />
                             </span> */}
                             <span className='hidden group-hover:block transition duration-1000 ease-in-out transition-delay-1000'>
-                                <FiChevronsDown className='ml-3' size={30} />
+                                <FiChevronsDown className='ml-3' size={25} />
                             </span>
                         </button>
                     </Link>
                 </div>
             </div>
-            <div className="div flex flex-col order-1 md:order-2 justify-center px-40 ">
+            <div className="div flex flex-col order-1 md:order-2 justify-center mr-24 px-36 ">
                 <img src={profilePic} alt="profile art" width="300" />
             </div>
         </div>
