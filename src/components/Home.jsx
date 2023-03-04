@@ -1,10 +1,18 @@
 import React from 'react';
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BsMouse } from "react-icons/bs";
 import { FiChevronsDown, } from "react-icons/fi";
 import profilePic from '../assets/profile2.jpg'
 import { Link } from 'react-scroll';
 
 const Home = () => {
+    const [text] = useTypewriter({
+      words: ["Aspiring Software Developer.", "Computer Science Student.", "Science-Fiction Nerd."],
+      loop: true,
+      typeSpeed: 20,
+      deleteSpeed: 10,
+      delaySpeed: 2000,
+    });
   return (
     <div name='home' className="w-full h-screen bg-[url('./assets/background1.png')] bg-cover bg-left" style={{backgroundSize: '125%'}} >
       {/* Container */}
@@ -67,7 +75,12 @@ const Home = () => {
                     </div>
                 </h1>
                 <h2 className='text-1xl sm:text-2xl font-bold text-[#8892b0] py-4'>
-                    ― Aspiring Software Developer.
+                    ― {text}
+                    <Cursor
+                        cursorBlinking="false"
+                        cursorStyle="|"
+                        cursorColor="#3490dc"
+                    />
                 </h2>
             
                 <p className='text-primary text-xs py-4 pr-8 max-w-[700px] leading-7'>
@@ -93,7 +106,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="div flex flex-col order-1 md:order-2 justify-center mr-24 px-36 ">
+            <div className="div flex flex-col order-1 md:order-2 justify-center md:mr-24 px-36 mt-20 md:mt-0 ">
                 <img src={profilePic} alt="profile art" width="300" />
             </div>
         </div>
