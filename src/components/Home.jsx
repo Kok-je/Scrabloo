@@ -1,7 +1,6 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 import { BsMouse } from "react-icons/bs";
-import { FiChevronsDown, FiChevronsRight } from "react-icons/fi";
+import { FiChevronsDown, } from "react-icons/fi";
 import profilePic from '../assets/profile2.jpg'
 import { Link } from 'react-scroll';
 
