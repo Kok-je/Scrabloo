@@ -65,10 +65,9 @@ const Navbar = () => {
             Work.
           </Link>
         </li>
-        <li className='border-solid border-2 rounded-xl py-2 ml-2'>
+        <li className='border-solid border-2 hover:bg-secondary hover:text-[#ffffff] rounded-xl py-2 ml-2'>
           <Link to='contact' smooth={true} duration={500}>
             Say Hi!
-            
           </Link>
         </li>
       </ul>
