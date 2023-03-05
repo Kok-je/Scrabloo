@@ -18,7 +18,7 @@ const About = () => {
                 <img src={aboutPic} alt="profile" width="300" />
             </div>
             <div className='div flex flex-col justify-center py-10 px-14 rounded-3xl border-2'>
-                <p className='text-xs sm:text-base'>I am passionate about building excellent software that improves
+                <p className='text-xs sm:text-base text-justify'>I am passionate about building excellent software that improves
                 the lives of those around me. I specialize in creating software
                 for clients ranging from individuals and small-businesses all the
                 way to large enterprise corporations. What would you do if you had

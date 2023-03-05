@@ -83,7 +83,7 @@ const Home = () => {
                     />
                 </h2>
             
-                <p className='text-primary text-xs py-4 pr-8 max-w-[700px] leading-7'>
+                <p className='text-primary text-xs py-4 pr-8 max-w-[700px] leading-7 text-justify'>
                 I love everything tech and design! I aim to depvelop impactful software that make a difference! 
                 Currently, I’m focused on
                 building responsive full-stack web applications.
