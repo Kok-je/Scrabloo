@@ -16,11 +16,11 @@ const Home = () => {
   return (
     <div name='home' className="w-full h-screen bg-[url('./assets/background1.png')] bg-cover bg-left" style={{backgroundSize: '125%'}} >
       {/* Container */}
-      <div className='max-w-[1500px] mx-auto px-8 flex flex-col md:flex-row  h-full '>
-        <div class="w-40 h-8"></div>
+      <div className='max-w-[1500px] mx-auto px-8 flex flex-col md:flex-row h-full '>
+            <div class="hidden lg:block w-40 h-8"></div>
             <div className="div flex flex-col order-2 md:order-1 justify-center md:pl-36 ">
                 <p className='text-pink-600'>Hi, my name is</p>
-                <h1 className='text-3xl md:text-6xl sm:text-5xl font-bold flex items-center '>
+                <h1 className='text-3xl lg:text-6xl sm:text-5xl font-bold flex items-center '>
                     Shawn Kok.
                     <div className="div pl-4">
                         <svg
@@ -106,7 +106,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="div flex flex-col order-1 md:order-2 justify-center md:mr-24 px-36 mt-20 md:mt-0 ">
+            <div className="div flex flex-col order-1 md:order-2 justify-center items-center md:mr-24 lg:px-36 mt-20 md:mt-0 ">
                 <img src={profilePic} alt="profile art" width="300" />
             </div>
         </div>
