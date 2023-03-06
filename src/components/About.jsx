@@ -3,7 +3,7 @@ import aboutPic from '../assets/profile3.JPG'
 
 const About = () => {
   return (
-    <div name='about' className='w-full sm:h-screen py-20 sm:py-0 text-gray-300 '>
+    <div name='about' className='w-full sm:h-screen py-40 sm:py-0 text-gray-300 '>
       <div className='flex flex-col justify-center items-center w-full h-full mt-7 '>
         <div className='max-w-[1100px] w-full flex justify-start pl-20 '>
           <div className='sm:text-center pb-8 pl-20 '>
