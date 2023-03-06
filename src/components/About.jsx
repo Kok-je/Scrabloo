@@ -18,11 +18,13 @@ const About = () => {
                 <img src={aboutPic} alt="profile" width="300" />
             </div>
             <div className='div flex flex-col justify-center py-10 px-14 rounded-3xl border-2'>
-                <p className='text-xs sm:text-base text-justify'>I am passionate about building excellent software that improves
-                the lives of those around me. I specialize in creating software
-                for clients ranging from individuals and small-businesses all the
-                way to large enterprise corporations. What would you do if you had
-                a software expert available at your fingertips?</p>  
+                <p className='text-xs sm:text-base text-justify'>
+                  I am passionate about software as much as entrepreneruship! As a Computer Science Student,
+                  I am able to merge these two interests by developing innovative ideas for hackathons. See
+                  some of my projects below! And when I'm not nose-deep in code, you can find me indulging 
+                  my love of art, music, sports, epic sci-fi, and a dash of horror movies. Currently on a 
+                  culinary journey! (Yes, I will cook fried rice for you)
+                </p>  
             </div>
         </div>
       </div>
