@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Height from './components/Height'
+import HeightComparison from './components/HeightComparison'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Home />
       <About />
       <Height />
+      <HeightComparison />
     </div>
   )
 }

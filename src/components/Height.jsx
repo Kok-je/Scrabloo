@@ -4,47 +4,40 @@ import female from '../assets/female.png'
 import myheight from '../assets/height.png'
 
 const Height = () => {
-  const [gender, setGender] = useState("male");
+  const [gender, setGender] = useState("female");
   const [height, setHeight] = useState("");
   const [unit, setUnit] = useState("cm");
-  const [comparisonHeight, setComparisonHeight] = useState(185);
+  const [comparisonHeight, setComparisonHeight] = useState(160);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (unit === "ft") {
-      setComparisonHeight(height * 30.48);
-    } else {
-      setComparisonHeight(height);
-    }
+    setComparisonHeight(height);
   };
 
   return (
     <div name='about' className='w-full sm:h-screen py-40 sm:py-0 text-gray-300 '>
         <div className="flex flex-row justify-center items-center w-full h-full mt-7">
-            <div className="div flex flex-col items-center justify-center px-20 border-2">
-                <div className="flex flex-col md:flex-row items-end justify-center ">
-                    <div
-                    className="h-full md:w-24 relative"
-                    >
-                        <p className="text-center font-bold">
-                            {comparisonHeight} {unit === "cm" ? "cm" : "ft"}
-                        </p>
-                        <img
-                            src={gender === 'male' ? male : female}
-                            alt={`${gender} silhouette`}
-                            className="bottom-0 left-0 right-0 w-full h-auto border-2"
-                            style={{ height: `${(comparisonHeight / 185) * 100}%` }}
-                        />
-                    </div>
-                    <div 
-                    className="h-full md:w-24"
-                    >
-                        <img
-                            src={myheight}
-                            alt="That's me, Shawn!"
-                            className="w-full h-auto rounded-md border-2"
-                        />
-                    </div>
+            <div className="div flex flex-crow items-end justify-center px-20 border-2">
+                <div className="h-full md:w-24">
+                    <p className="text-center font-bold">
+                        {comparisonHeight} {unit === "cm" ? "cm" : "ft"}
+                    </p>
+                    <img
+                        src={gender === 'male' ? male : female}
+                        alt={`${gender} silhouette`}
+                        className="bottom-0 left-0 right-0 w-full h-full border-2"
+                        style={{ height: `${(comparisonHeight / 185) * 400}` }}
+                    />
+                </div>
+                <div 
+                className="h-full md:w-24"
+                >
+                    <img
+                        src={myheight}
+                        alt="That's me, Shawn!"
+                        className="w-full h-full rounded-md border-2"
+                        style={{ height: 400, width: "auto" }}
+                    />
                 </div>
             </div>
             <div className="div flex flex-col items-end ml-20 border-2">
