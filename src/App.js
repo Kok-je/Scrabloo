@@ -11,8 +11,6 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
-      <Height />
-      <HeightComparison />
     </div>
   )
 }
