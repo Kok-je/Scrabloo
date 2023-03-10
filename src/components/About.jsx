@@ -22,8 +22,8 @@ const About = () => {
                   I am passionate about software as much as entrepreneruship! As a Computer Science Student,
                   I am able to merge these two interests by developing innovative ideas for hackathons. See
                   some of my projects below! And when I'm not nose-deep in code, you can find me indulging 
-                  my love of art, music, sports, epic sci-fi, and a dash of horror movies. Currently on a 
-                  culinary journey! (Yes, I will cook fried rice for you)
+                  my love of art, music, sports, epic sci-fi, and a dash of horror movies. Currently learning 
+                  to cook with ChatGPT! (Yes, I will cook fried rice for you)
                 </p>  
             </div>
         </div>
