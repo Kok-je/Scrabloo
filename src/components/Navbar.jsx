@@ -36,7 +36,7 @@ const Navbar = () => {
   const RandomIcon = icons[randomIndex]
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center lg:px-60 md:px-20 sm:px-10 px-8  bg-[#ffffff] text-black-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center lg:px-60 md:px-20 sm:px-10 px-8 bg-[#ffffff] z-40'>
       <div className='flex justify-between items-center w-40'>
         {/* <div class="w-6 h-6 mr-2 border-solid border-2"></div> */}
         <RandomIcon size={30} />
@@ -56,7 +56,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='height' smooth={true} duration={500}>
+          <Link to='projects' smooth={true} duration={500}>
             Projects.
           </Link>
         </li>
@@ -65,7 +65,7 @@ const Navbar = () => {
             Work.
           </Link>
         </li>
-        <li className='border-solid border-2 hover:bg-secondary hover:text-[#ffffff] rounded-xl py-2 ml-2'>
+        <li className='border-2 hover:bg-secondary hover:text-[#ffffff] rounded-xl py-2 ml-2'>
           <Link to='contact' smooth={true} duration={500}>
             Say Hi!
           </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='height' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
@@ -121,7 +121,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[200px] h-[60px] flex justify-between items-center px-5 ml-[-90px] hover:ml-[-10px] duration-300'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full '
               href='https://www.linkedin.com/in/shawn-kok' target="_blank" rel="noopener noreferrer"
             >
               Linkedin <FaLinkedinIn size={30} />
@@ -129,7 +129,7 @@ const Navbar = () => {
           </li>
           <li className='w-[200px] h-[60px] flex justify-between items-center px-5 ml-[-90px] hover:ml-[-10px] duration-300'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full '
               href='https://github.com/Kok-je' target="_blank" rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
@@ -137,7 +137,7 @@ const Navbar = () => {
           </li>
           <li className='w-[200px] h-[60px] flex justify-between items-center px-5 ml-[-90px] hover:ml-[-10px] duration-300'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full '
               href='https://www.instagram.com/therealkokje' target="_blank" rel="noopener noreferrer"
             >
               Insta <FaInstagram size={30} />
@@ -145,7 +145,7 @@ const Navbar = () => {
           </li>
           <li className='w-[200px] h-[60px] flex justify-between items-center px-5 ml-[-90px] hover:ml-[-10px] duration-300'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full '
               href='https://shawnkok00.medium.com/' target="_blank" rel="noopener noreferrer"
             >
               Medium <FaMediumM size={30} />

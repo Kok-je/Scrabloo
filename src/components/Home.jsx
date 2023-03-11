@@ -19,7 +19,7 @@ const Home = () => {
       <div className='max-w-[1500px] mx-auto px-8 flex flex-col md:flex-row h-full '>
             <div class="hidden lg:block w-40 h-8"></div>
             <div className="div flex flex-col order-2 md:order-1 justify-center md:pl-36 ">
-                <p className='text-pink-600'>Hi, my name is</p>
+                <p className='text-primary'>Hi, my name is</p>
                 <h1 className='text-3xl lg:text-6xl sm:text-5xl font-bold flex items-center '>
                     Shawn Kok.
                     <div className="div pl-4">
@@ -83,7 +83,7 @@ const Home = () => {
                     />
                 </h2>
             
-                <p className='text-primary text-xs py-4 pr-8 max-w-[700px] leading-7 text-justify'>
+                <p className='text-primary text-s py-4 pr-8 max-w-[700px] leading-7 text-justify'>
                 I love everything tech and design! I aim to depvelop impactful software that make a difference! 
                 Currently, I’m focused on
                 building responsive full-stack web applications.
