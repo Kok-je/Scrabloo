@@ -19,7 +19,6 @@ import {
     SiPostgresql,
 
 } from "react-icons/si";
-import {TbBrandGolang} from "react-icons/tb";
 
 const Projects = () => {
   return (
@@ -56,7 +55,7 @@ const Projects = () => {
                 </CardBody>
                 <CardFooter className="flex justify-left gap-5 pt-2">
                     <SiReact size={32}/><SiJavascript size={32}/><SiHtml5 size={32}/><SiCss3 size={32}/><SiMaterialui size={32}/><SiNetlify size={32}/>
-                    <SiPostgresql /><SiPython /><TbBrandGolang /><SiSupabase />
+                    <SiPostgresql /><SiPython /><SiSupabase />
                 </CardFooter>
                 <CardFooter divider className="flex items-center justify-between py-3">
                     <Typography variant="small">$899/night</Typography>
