@@ -32,7 +32,7 @@ const Projects = () => {
 
           <div className='w-full flex flex-col space-y-8 items-center gap-4 text-center py-8 pt-24 '>
             <Card className="w-full md:w-3/4">
-                <a href="https://chirple.netlify.app/" target="_blank">
+                <a href="https://chirple.netlify.app/" target="_blank" rel="noreferrer">
                     <CardHeader color="blue" className="relative h-58 hover:scale-[1.02]">
                         <img
                         src={chirple}
