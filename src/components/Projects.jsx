@@ -19,21 +19,31 @@ import {
     SiPostgresql,
 
 } from "react-icons/si";
+import {FaHatWizard} from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full sm:h-screen py-40 sm:py-0 border-transparent border-2'>
+    <div name='projects' className='w-full sm:h-screen py-20 sm:py-0 border-transparent border-2'>
       {/* Container */}
-      <div className='max-w-[1100px] mx-auto mt-20 px-14 flex flex-col justify-center w-full h-fit '>
+      <div className='max-w-[1100px] mx-auto mt-20 sm:px-14 px-6 flex flex-col justify-center w-full h-fit '>
           <div className=''>
-              <p className='text-4xl font-bold inline border-b-4 border-danger '>Projects</p>
-              <p className='py-4'>These are the projects I've developed</p>
+              <p className='text-4xl font-bold inline border-b-4 border-secondary'>Projects</p>
+              <div className="flex flex-row items-center ">
+                <FaHatWizard size={36} className='hidden sm:block mr-8 text-[#4169e1]'/>
+                <p className='py-8 text-xs sm:text-base'> I'm a software wizard who crafts code with elegance, accessibility, and 
+              impact in mind. Here's hoping my creation will cast a spell of difference on others!</p>
+              </div>
           </div>
 
-          <div className='w-full flex flex-col space-y-8 items-center gap-4 text-center py-8 pt-24 '>
-            <Card className="w-full md:w-3/4">
+          <div className='w-full flex flex-col space-y-8 items-center gap-4 text-center py-8 pt-4 '>
+            <Card className="w-full md:w-3/4 overflow-hidden hover:shadow-[#8892b0] transition duration-300 ">
                 <a href="https://chirple.netlify.app/" target="_blank" rel="noreferrer">
-                    <CardHeader color="blue" className="relative h-58 hover:scale-[1.02]">
+                    <CardHeader 
+                      floated={false}
+                      shadow={false}
+                      color="transparent"
+                      className="m-0 rounded-none"
+                    >
                         <img
                         src={chirple}
                         alt="img-blur-shadow"
@@ -43,10 +53,14 @@ const Projects = () => {
                 </a>
                 
                 <CardBody className="text-start">
-                    <Typography variant="h5" className="mb-2">
-                    Chirple – Twitter Scraping App with Real-time Analysis 
+                    <Typography variant="h3" className="font-mono mb-2">
+                      Chirple 
                     </Typography>
-                    <Typography className="pt-2" fontWeight="light">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center sm:justify-between py-1">
+                      <Typography className='text-xs sm:text-base font-bold text-[#8892b0]'>Twitter Scraping App with Real-time Analysis</Typography>
+                      <Typography className='text-xs sm:text-base bg-secondary rounded-md px-2 text-[#ffffff] mt-2 sm:mt-0'>Dec 2022</Typography>
+                    </div>
+                    <Typography className="pt-3 text-justify" variant="small">
                     Chirple is an application that makes use of a Twitter Scrapping API to provide tailored data analysis to users about their 
                     products or events. Chirple aims to provide instant, fresh analysis of global sentiments using the Hashscrapper API. The 
                     application leverages critical real-time social media data made possible by the API to give users a leg up on upcoming trends, 

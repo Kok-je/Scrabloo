@@ -15,7 +15,6 @@ import {
     RiCollageLine,
     RiLayoutTop2Line,
     RiLayoutRowLine,
-    RiDatabase2Line
 } from "react-icons/ri";
 import { Link } from 'react-scroll';
 
@@ -30,13 +29,12 @@ const Navbar = () => {
     RiCollageLine,
     RiLayoutTop2Line,
     RiLayoutRowLine,
-    RiDatabase2Line
   ]
   const randomIndex = Math.floor(Math.random() * icons.length)
   const RandomIcon = icons[randomIndex]
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center lg:px-60 md:px-20 sm:px-10 px-8 bg-[#ffffff] z-40'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#ffffff] z-40'>
       <div className='flex justify-between items-center w-40'>
         {/* <div class="w-6 h-6 mr-2 border-solid border-2"></div> */}
         <RandomIcon size={30} />

@@ -83,7 +83,7 @@ const Home = () => {
                     />
                 </h2>
             
-                <p className='text-primary text-s py-4 pr-8 max-w-[700px] leading-7 text-justify'>
+                <p className='text-primary sm:text-s text-xs py-4 pr-8 max-w-[700px] sm:leading-7 leading-2 text-justify'>
                 I love everything tech and design! I aim to depvelop impactful software that make a difference! 
                 Currently, I’m focused on
                 building responsive full-stack web applications.
@@ -106,7 +106,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="div flex flex-col order-1 md:order-2 justify-center items-center md:mr-24 lg:px-36 mt-20 md:mt-0 ">
+            <div className="div flex flex-col order-1 md:order-2 justify-center items-center lg:px-36 md:mr-24 md:px-4 md:mt-0 mt-20 border-2 ">
                 <img src={profilePic} alt="profile art" width="300" />
             </div>
         </div>
