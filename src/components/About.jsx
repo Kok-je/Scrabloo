@@ -3,7 +3,7 @@ import aboutPic from '../assets/profile3.JPG'
 
 const About = () => {
   return (
-    <div name='about' className='w-full sm:h-screen py-20 sm:py-0 '>
+    <div name='about' className='w-full sm:h-screen border-transparent border-2'>
       <div className='flex flex-col justify-center items-center w-full h-full mt-40 md:mt-7'>
         <div className='max-w-[1100px] w-full flex justify-start px-14 '>
           <div className='sm:text-center pb-8  '>
@@ -13,11 +13,11 @@ const About = () => {
           </div>
           
         </div>
-        <div className='max-w-[1100px] w-full grid md:grid-cols-2 gap-8 py-14 px-14  '>
+        <div className='max-w-[1100px] w-full grid md:grid-cols-2 gap-8 py-14 sm:px-14 px-6 '>
             <div className='div flex flex-row justify-center ' >
                 <img src={aboutPic} alt="profile" width="300" />
             </div>
-            <div className='div flex flex-col justify-center py-10 px-14 rounded-3xl border-2'>
+            <div className='div flex flex-col justify-center py-10 sm:px-14 px-8 rounded-3xl border-2'>
                 <p className='text-xs sm:text-base text-justify'>
                   I am passionate about software as much as entrepreneruship! As a Computer Science Student,
                   I am able to merge these two interests by developing innovative ideas for hackathons. See

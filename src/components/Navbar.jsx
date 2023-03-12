@@ -34,7 +34,7 @@ const Navbar = () => {
   const RandomIcon = icons[randomIndex]
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#ffffff] z-40'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#ffffff] z-40 border-b-2 sm:border-0'>
       <div className='flex justify-between items-center w-40'>
         {/* <div class="w-6 h-6 mr-2 border-solid border-2"></div> */}
         <RandomIcon size={30} />
@@ -97,7 +97,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
-            Skills
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>

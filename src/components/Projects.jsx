@@ -53,9 +53,11 @@ const Projects = () => {
                 </a>
                 
                 <CardBody className="text-start">
-                    <Typography variant="h3" className="font-mono mb-2">
-                      Chirple 
-                    </Typography>
+                    <a href="https://github.com/Kok-je/chirple" target="_blank" rel="noreferrer">
+                      <Typography variant="h3" className="font-mono mb-2 hover:underline">
+                        Chirple 
+                      </Typography>
+                    </a>
                     <div className="flex flex-col sm:flex-row items-start sm:items-center sm:justify-between py-1">
                       <Typography className='text-xs sm:text-base font-bold text-[#8892b0]'>Twitter Scraping App with Real-time Analysis</Typography>
                       <Typography className='text-xs sm:text-base bg-secondary rounded-md px-2 text-[#ffffff] mt-2 sm:mt-0'>Dec 2022</Typography>
@@ -67,8 +69,12 @@ const Projects = () => {
                     predict the next fads and fashions, and keep track of consumer sentiment.
                     </Typography>
                 </CardBody>
-                <CardFooter className="flex justify-left gap-5 pt-2">
-                    <SiReact size={32}/><SiJavascript size={32}/><SiHtml5 size={32}/><SiCss3 size={32}/><SiMaterialui size={32}/><SiNetlify size={32}/>
+                <CardFooter className="flex flex-col ">
+                    <Typography className='flex justify-start text-xs sm:text-base text-[#8892b0]'>Tech Stack:</Typography>
+                    <div className="div flex justify-start gap-5 pt-2">
+                      <SiReact size={32}/><SiJavascript size={32}/><SiHtml5 size={32}/><SiCss3 size={32}/><SiMaterialui size={32}/><SiNetlify size={32}/>
+                    </div>
+                    
                     <SiPostgresql /><SiPython /><SiSupabase />
                 </CardFooter>
                 <CardFooter divider className="flex items-center justify-between py-3">

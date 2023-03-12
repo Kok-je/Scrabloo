@@ -2,7 +2,7 @@ import React from 'react';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BsMouse } from "react-icons/bs";
 import { FiChevronsDown, } from "react-icons/fi";
-import profilePic from '../assets/profile2.jpg'
+import profilePic from '../assets/Shawnkok.png'
 import { Link } from 'react-scroll';
 
 const Home = () => {
@@ -83,11 +83,9 @@ const Home = () => {
                     />
                 </h2>
             
-                <p className='text-primary sm:text-s text-xs py-4 pr-8 max-w-[700px] sm:leading-7 leading-2 text-justify'>
-                I love everything tech and design! I aim to depvelop impactful software that make a difference! 
-                Currently, I’m focused on
-                building responsive full-stack web applications.
-                As a computer science student, I enjoy tinkering with web dev and AI stuff. 
+                <p className='text-primary sm:text-sm text-xs py-4 pr-8 max-w-[700px] sm:leading-6 leading-2 text-justify'>
+                I love everything tech and design! I aim to depvelop impactful software that make a difference, and leave a byte mark
+                on the world!
                 </p>
                 <div>
                     <Link to='about' smooth={true} duration={500}>
@@ -106,8 +104,8 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="div flex flex-col order-1 md:order-2 justify-center items-center lg:px-36 md:mr-24 md:px-4 md:mt-0 mt-20 ">
-                <img src={profilePic} alt="profile art" width="300" />
+            <div className="div flex flex-col order-1 md:order-2 justify-center items-center lg:px-36 md:mr-24 md:px-4 md:mt-0 mt-24">
+                <img src={profilePic} alt="profile art" className='w-60 sm:w-80' />
             </div>
         </div>
     </div>
