@@ -58,11 +58,6 @@ const Navbar = () => {
             Projects.
           </Link>
         </li>
-        <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work.
-          </Link>
-        </li>
         <li className='border-2 hover:bg-secondary hover:text-[#ffffff] rounded-xl py-2 ml-2'>
           <Link to='contact' smooth={true} duration={500}>
             Say Hi!
@@ -98,12 +93,6 @@ const Navbar = () => {
           {' '}
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
             Projects
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
           </Link>
         </li>
         <li className='py-6 text-4xl'>

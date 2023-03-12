@@ -25,7 +25,7 @@ import {FaHatWizard, FaJava} from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full sm:h-screen py-20 sm:py-0 border-transparent border-2'>
+    <div name='projects' className='w-full sm:h-fit py-20 sm:py-0 border-transparent border-2'>
       {/* Container */}
       <div className='max-w-[1100px] mx-auto mt-20 sm:px-14 px-6 flex flex-col justify-center w-full h-fit '>
           <div className=''>
@@ -202,7 +202,7 @@ const Projects = () => {
             </Card>
 
             <Card className="w-full md:w-3/4 overflow-hidden hover:shadow-[#8892b0] transition duration-300 ">
-                <a href="https://the100club.io/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Kok-je/ip" target="_blank" rel="noreferrer">
                     <CardHeader 
                       floated={false}
                       shadow={false}
@@ -218,7 +218,7 @@ const Projects = () => {
                 </a>
                 
                 <CardBody className="text-start">
-                    <a href="https://the100club.io/" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Kok-je/ip" target="_blank" rel="noreferrer">
                       <Typography variant="h3" className="font-mono mb-2 hover:underline">
                       🌸 Sakura 
                       </Typography>
