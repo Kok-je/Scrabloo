@@ -106,7 +106,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="div flex flex-col order-1 md:order-2 justify-center items-center lg:px-36 md:mr-24 md:px-4 md:mt-0 mt-20 border-2 ">
+            <div className="div flex flex-col order-1 md:order-2 justify-center items-center lg:px-36 md:mr-24 md:px-4 md:mt-0 mt-20 ">
                 <img src={profilePic} alt="profile art" width="300" />
             </div>
         </div>
